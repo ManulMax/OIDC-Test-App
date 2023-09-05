@@ -1,0 +1,13 @@
+{
+    "name": "administrator/test",
+    "description": "sample OIDC app",
+    "autoload": {
+        "psr-4": {
+            "Administrator\\Test\\": "src/"
+        }
+    },
+    "require": {
+        "google/auth": "^1.29",
+        "google/apiclient": "^2.15"
+    }
+}
